@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 2px solid #B0B0B0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: #152C5B;
+    font-size: 16px;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+header  h1 {
+    color: #152C5B;
+    font-size: 24px;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.home {
+    color: #3252DF;
+}
+
+.forget__your {
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+}
+
+.forget__your div {
+    margin-right: 15px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.travel {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: 500;
+}
+
+.item {
+    margin-right: 20px;
+}
