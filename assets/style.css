@@ -1,50 +1,54 @@
-* {
+body {
     box-sizing: border-box;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    border-bottom: 2px solid #B0B0B0;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
     color: #152C5B;
-    font-size: 16px;
 }
 
-ul li {
+li {
     margin-right: 15px;
 }
 
-header  h1 {
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
     color: #152C5B;
-    font-size: 24px;
 }
 
 .stay {
     color: #3252DF;
 }
 
-.home {
+.firstlist {
     color: #3252DF;
 }
 
-.forget__your {
+main .show__me {
     display: flex;
-    position: relative;
     padding-left: 50px;
     padding-right: 50px;
-    justify-content: center;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.forget__your div {
-    margin-right: 15px;
+.forget__your {
+    position: relative;
+    margin-right: 300px;
 }
 
 .forget__your h2 {
@@ -53,7 +57,6 @@ header  h1 {
 }
 
 .forget__your p {
-    font-size: 18px;
     color: #B0B0B0;
 }
 
@@ -61,25 +64,25 @@ header  h1 {
     background-color: #3252DF;
     color: white;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 50px;
     padding-left: 50px;
-    font-size: 18px;
-    font-weight: 500;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
 }
 
 .travel {
-    display: flex;
     position: absolute;
+    display: flex;
     bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
 }
 
 .travel span {
     color: #152C5B;
-    font-weight: 500;
-}
-
-.item {
-    margin-right: 20px;
+    font-weight: bold;
 }
