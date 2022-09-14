@@ -39,6 +39,9 @@ li {
 
 main .show__me {
     display: flex;
+}
+
+.container {
     padding-left: 50px;
     padding-right: 50px;
     width: max-content;
@@ -48,7 +51,7 @@ main .show__me {
 
 .forget__your {
     position: relative;
-    margin-right: 300px;
+    margin-right: 150px;
 }
 
 .forget__your h2 {
@@ -60,7 +63,7 @@ main .show__me {
     color: #B0B0B0;
 }
 
-.forget__your button {
+.button {
     background-color: #3252DF;
     color: white;
     border: none;
@@ -69,6 +72,7 @@ main .show__me {
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 30px;
+    border-radius: 5px;
 }
 
 .travel {
@@ -85,4 +89,98 @@ main .show__me {
 .travel span {
     color: #152C5B;
     font-weight: bold;
+}
+
+.most__picked {
+    margin-top: 50px;
+}
+
+.most__picked__container {
+    display: flex;
+}
+
+.pic__1 {
+    position: relative;
+    margin-right: 20px;
+    background: linear-gradient(180deg, rgba(44, 155, 217, 0) 49.33%, rgba(196, 196, 196, 0.5) 100%);
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FF498B;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 15px 0 15px;
+    color: white;
+}
+
+.detail {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.container__pic__2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic__2 {
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.top {
+    margin-top: 0;
+}
+
+.popular {
+    margin-top: 50px;
+}
+
+.popular__img {
+    display: flex;
+}
+
+
+.popular__detail {
+    position: relative;
+    margin-right: 20px;
+}
+
+.happy__family {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    display: flex;
+}
+
+.happy__family__img {
+    margin-right: 100px;
+}
+
+.container__footer {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.detail__footer {
+    margin-right: 100px;
+}
+
+.copyright {
+    margin-top: 20px ;
+}
+.copyright p {
+    text-align: center;
 }
